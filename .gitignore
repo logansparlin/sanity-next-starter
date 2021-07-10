@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+studio/node_modules
 /.pnp
 .pnp.js
 
@@ -11,6 +12,7 @@
 # next.js
 /.next/
 /out/
+.cache
 
 # production
 /build
@@ -29,6 +31,13 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env
+.env.test
+.env.local
+studio/.env.*
 
 # vercel
 .vercel
+
+# Sanity DB Files
+studio/*.tar.gz
