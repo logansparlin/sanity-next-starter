@@ -16,12 +16,12 @@
     "headless"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "build": "cd studio && sanity build ../public/studio -y && cd .. && next build",
     "build:ci": "npm ci && npm run build",
     "lint": "next lint",
     "deploy:sanity": "cd studio && npm ci && npm run deploy",
-    "start": "concurrently 'npm:dev' 'npm:start:sanity'",
+    "start": "concurrently 'next dev' 'npm:start:sanity'",
+    "dev": "concurrently 'next --port $PORT' 'cd studio && sanity start'",
     "start:site": "next start",
     "start:sanity": "cd studio && sanity start",
     "husky:install": "husky install",
