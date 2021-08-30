@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Edensurf"
-  },
   "api": {
-    "projectId": "zfwp0pbn",
+    "projectId": "3b5jsbxb",
     "dataset": "production"
+  },
+  "project": {
+    "name": "Sanity Starter"
   },
   "plugins": [
     "@sanity/base",
