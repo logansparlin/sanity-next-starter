@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "3b5jsbxb",
+    "projectId": "d7x3ay0b",
     "dataset": "production"
   },
   "project": {
-    "name": "Sanity Starter"
+    "name": "Garden Variety"
   },
   "plugins": [
     "@sanity/base",

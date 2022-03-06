@@ -5,8 +5,8 @@ import { Box } from '@components/box';
 
 const HomeHead = () => (
   <Head>
-    <title>Next.js Sanity.io Starter</title>
-    <meta name="description" content="Next.js + Sanity.io Starter project" />
+    <title>Garden Variety</title>
+    <meta name="description" content="Garden Variety is a creative development and product company." />
     <link rel="icon" href="/favicon.ico" />
   </Head>
 )
